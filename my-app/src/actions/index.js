@@ -5,8 +5,14 @@ export const addTodo = text => ({
     id: nextTodoId++,
     text
 });
+
+export const toggleTodo = id => ({
+    type: 'TOGGLE_TODO',
+    id
+})
+
 export const VisibilityFilters = {
-    All: 'All',
-    Active: 'Active',
-    Completed: 'Completed'
+    All: 'SHOW_ALL',
+    Active: 'SHOW_ACTIVE',
+    Completed: 'SHOW_COMPLETED'
 }
