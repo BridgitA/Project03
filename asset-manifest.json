@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/Project03/static/js/main.c455dbaa.chunk.js",
-    "main.js.map": "/Project03/static/js/main.c455dbaa.chunk.js.map",
-    "runtime-main.js": "/Project03/static/js/runtime-main.a3cdae2c.js",
-    "runtime-main.js.map": "/Project03/static/js/runtime-main.a3cdae2c.js.map",
-    "static/js/2.a66671d1.chunk.js": "/Project03/static/js/2.a66671d1.chunk.js",
-    "static/js/2.a66671d1.chunk.js.map": "/Project03/static/js/2.a66671d1.chunk.js.map",
-    "index.html": "/Project03/index.html",
-    "precache-manifest.04437916c36fc3dce8d983d86e597879.js": "/Project03/precache-manifest.04437916c36fc3dce8d983d86e597879.js",
-    "service-worker.js": "/Project03/service-worker.js",
-    "static/js/2.a66671d1.chunk.js.LICENSE.txt": "/Project03/static/js/2.a66671d1.chunk.js.LICENSE.txt"
+    "main.js": "/BridgitA/Project03/static/js/main.c455dbaa.chunk.js",
+    "main.js.map": "/BridgitA/Project03/static/js/main.c455dbaa.chunk.js.map",
+    "runtime-main.js": "/BridgitA/Project03/static/js/runtime-main.6f4324fc.js",
+    "runtime-main.js.map": "/BridgitA/Project03/static/js/runtime-main.6f4324fc.js.map",
+    "static/js/2.a66671d1.chunk.js": "/BridgitA/Project03/static/js/2.a66671d1.chunk.js",
+    "static/js/2.a66671d1.chunk.js.map": "/BridgitA/Project03/static/js/2.a66671d1.chunk.js.map",
+    "index.html": "/BridgitA/Project03/index.html",
+    "precache-manifest.8a2b4c267439c1551bb86016ad624859.js": "/BridgitA/Project03/precache-manifest.8a2b4c267439c1551bb86016ad624859.js",
+    "service-worker.js": "/BridgitA/Project03/service-worker.js",
+    "static/js/2.a66671d1.chunk.js.LICENSE.txt": "/BridgitA/Project03/static/js/2.a66671d1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3cdae2c.js",
+    "static/js/runtime-main.6f4324fc.js",
     "static/js/2.a66671d1.chunk.js",
     "static/js/main.c455dbaa.chunk.js"
   ]
