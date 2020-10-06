@@ -5,3 +5,8 @@ export const addTodo = text => ({
     id: nextTodoId++,
     text
 });
+export const VisibilityFilters = {
+    All: 'All',
+    Active: 'Active',
+    Completed: 'Completed'
+}
