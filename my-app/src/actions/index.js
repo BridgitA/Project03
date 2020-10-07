@@ -16,3 +16,8 @@ export const VisibilityFilters = {
     Active: 'SHOW_ACTIVE',
     Completed: 'SHOW_COMPLETED'
 }
+
+export const setVisibilityFilter = filter => ({
+    type: 'SET_VISIBILITY_FILTER',
+    filter 
+})
