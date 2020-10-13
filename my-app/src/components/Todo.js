@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Todo({onClick, completed, text}) {
+function Todo({onClick, completed, text, deleteTodo}) {
     return(
         <li
             onClick = {onClick}
@@ -9,6 +9,7 @@ function Todo({onClick, completed, text}) {
             }}
         >
             {text}
+            
         </li>
     )
 

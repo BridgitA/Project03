@@ -10,6 +10,15 @@ function todos(state = [], action) {
                     completed:false
                 }
             ];
+
+        case 'DELETE_TODO':
+            return{
+                reminders: [
+                    ...state.reminders.filter(reminder => id !==action.payload)
+
+                ]
+            };    
+
         case 'TOGGLE_TODO':
             return state.map(todo =>
                 todo.id == action.id ? { ...todo, completed: !todo.completed} :

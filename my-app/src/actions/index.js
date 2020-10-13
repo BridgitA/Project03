@@ -11,6 +11,12 @@ export const toggleTodo = id => ({
     id
 })
 
+export const deleteReminder = reminder => ({
+    type: 'DELETE_TODO',
+    payload: reminder
+
+})
+
 export const VisibilityFilters = {
     All: 'SHOW_ALL',
     Active: 'SHOW_ACTIVE',
