@@ -1,0 +1,10 @@
+export const ADD_TODO = 'ADD_TODO'
+export const TOGGLE_TODO = 'TOGGLE_TODO'
+export const DELETE_TODO = 'DELETE_TODO'
+export const SET_FILTER = 'SET_FILTER'
+
+export const FILTER_ALL = 'All'
+export const FILTER_ACTIVE = 'Active'
+export const FILTER_COMPLETED = 'Completed'
+export const Filters = [FILTER_ALL, FILTER_ACTIVE, FILTER_COMPLETED]
+
