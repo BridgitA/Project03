@@ -19,10 +19,11 @@ const AddTodo = ({ dispatch }) => {
             >
                 <input ref = {node => (input = node)} />
                 <button type = "submit">Add</button>
+                
             </form>
         </div>
     )
     
 }
 
-export default connect()(AddTodo)
+export default connect()(AddTodo);
