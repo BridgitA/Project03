@@ -1,10 +1,12 @@
+import uuid from 'uuid';
+
 const todos = (state = [], action) => {
     switch (action.type) {
         case 'ADD_TODO':
             return [
                 ...state,
                 {
-                    id: action.id,
+                    id: uuid(),
                     text: action.text,
                     completed : false
                 }
