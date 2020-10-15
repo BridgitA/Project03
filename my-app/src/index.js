@@ -6,6 +6,7 @@ import showResults from './showResults';
 import ContactForm from './ContactForm';
 import rootReducer from './reducers';
 import App from './components/App';
+import 'bootstrap/dist/css/bootstrap,min.css'
 
 
 const store = createStore(rootReducer)
