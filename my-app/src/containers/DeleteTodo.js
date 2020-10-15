@@ -6,15 +6,15 @@ const RemoveTodo = ({dispatch}) => {
 
     return (
         <div>
-            <a 
+            <form 
                 onClick = {e => {
-                    e.preventDefault() 
+                    e.preventDefault()
                     dispatch(deleteTodo())
 
                 }}
             >
-               <button type = "submit">Delete</button>
-            </a>
+            </form>
+            <span><button type = "submit">Delete</button></span>
         </div>
     )
 }

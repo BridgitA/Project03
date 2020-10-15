@@ -10,6 +10,7 @@ const App = () => (
         <VisibleTodoList />
         <Footer />
     </div>
+    
 )
 
 export default App;
