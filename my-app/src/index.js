@@ -1,23 +1,17 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import showResults from './showResults';
-import ContactForm from './ContactForm';
-import rootReducer from './reducers';
-import App from './components/App';
-import 'bootstrap/dist/css/bootstrap,min.css'
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-
-const store = createStore(rootReducer)
-
-render(
-  <Provider store = { store }>
-    <div style = {{padding: 15 }}>
-      <h2>Contact Form</h2>
-      <ContactForm onSubmit = {showResults} />
-    </div>
+ReactDOM.render(
+  <React.StrictMode>
     <App />
-  </Provider>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
