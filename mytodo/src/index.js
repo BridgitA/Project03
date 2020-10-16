@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Contact from './components/Contact'
 import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const store = createStore(rootReducer)
 
@@ -18,7 +19,6 @@ render(
     <Switch>
       <Route path='/todos' component={App} />
       <Route path='/contact' component={Contact} />
-
     </Switch>
     </BrowserRouter>
   </Provider>,
