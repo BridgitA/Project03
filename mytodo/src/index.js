@@ -8,7 +8,7 @@ import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Contact from './components/Contact'
 import './style.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const store = createStore(rootReducer)
 
