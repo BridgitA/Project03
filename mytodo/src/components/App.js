@@ -3,8 +3,9 @@ import Footer from './Footer'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
 
+
 const App = () => (
-  <div className='container center'>
+  <div className='app container'>
     <AddTodo />
     <VisibleTodoList />
     <Footer />

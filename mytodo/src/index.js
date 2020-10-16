@@ -7,6 +7,7 @@ import App from './components/App'
 import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Contact from './components/Contact'
+import './style.css'
 
 const store = createStore(rootReducer)
 
